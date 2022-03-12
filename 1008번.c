@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main(void) {
-    float A, B;
+    int A, B;
     scanf("%d %d", &A, &B);
 
-    printf("%f", A / B);
+    printf("%.9lf", (double)A / B);
 
     return 0;
 }
